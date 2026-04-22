@@ -1,0 +1,120 @@
+
+\documentclass[11pt, a4paper]{report}
+
+% --- Paquets bàsics ---
+\usepackage[utf8]{inputenc}
+\usepackage[catalan]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{top=3cm, bottom=3cm, left=3cm, right=3cm}
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{mathptmx} % Aquest paquet aplica la lletra Times New Roman
+
+% --- Definició de colors ---
+% Hem canviat el blau per un marró fosc i elegant
+\definecolor{primarybrown}{HTML}{6B4226} 
+\definecolor{darkgray}{rgb}{0.3,0.3,0.3}
+\definecolor{customlightgray}{gray}{0.8}
+
+% --- Configuració de capçaleres ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\fontsize{9}{11} \selectfont \textcolor{darkgray}{Treball de recerca: L'arquitectura en el cinema}}
+\fancyhead[R]{\fontsize{9}{11} \selectfont \textcolor{darkgray}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{customlightgray}\leaders\hrule height \headrulewidth\hfill}}
+
+% --- Estil de títols (Ajustats al nou color marró) ---
+\titleformat{\chapter}[hang]
+  {\normalfont\huge\bfseries\color{primarybrown}}
+  {\thechapter.}{0.5em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{primarybrown}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{darkgray}}
+  {\thesubsection}{1em}{}
+
+% --- Inici del document ---
+\begin{document}
+
+% --- Portada ---
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\huge \textbf{L'arquitectura en el cinema}}\\[0.5cm]
+    {\Large L'espai com a element narratiu i visual}\\[2cm]
+
+\begin{center}
+    \centering
+    % Recorda pujar la teva imatge a la carpeta "imatges" i treure el % de la línia de sota
+    % \includegraphics[width=0.8\linewidth]{imatges/portada.jpg}
+    \vspace{4cm} % Aquest espai és temporal fins que pugis la imatge
+\end{center}
+    
+    \vfill
+    
+    \begin{tabular}{ll}
+        \textbf{Autora:} & Yekateryna Rud \\
+        \textbf{Tutora:} & Cristina Espuga \\
+        \textbf{Centre:} & Institut Escola Sant Pol de Mar \\
+        \textbf{Data:} & Març de 2026
+    \end{tabular}
+\end{titlepage}
+
+\tableofcontents
+
+% --- Contingut ---
+
+\chapter{Introducció}
+L'arquitectura al cinema va molt més enllà de ser un simple decorat de fons. És la disciplina encarregada de dissenyar i construir els espais on viuen, pateixen i evolucionen els personatges. En aquesta introducció definirem com la concepció de l'espai cinematogràfic es nodreix de l'arquitectura real per crear il·lusions visuals i transmetre emocions a l'espectador.
+
+\chapter{L'arquitectura i l'atmosfera}
+
+\section{Creació de l'atmosfera a través de l'espai}
+L'atmosfera d'una pel·lícula dicta com se sent l'espectador. L'escala d'un edifici, la il·luminació dels seus passadissos o els materials utilitzats (com el formigó fred o la fusta càlida) són eines fonamentals perquè el director transmeti tensió, alegria, solitud o grandesa sense necessitat de paraules.
+
+\section{El paper psicològic de l'entorn}
+En aquest apartat, analitzarem casos pràctics on el disseny de producció ha estat clau. L'arquitectura actua com un filtre psicològic; per exemple, els sostres baixos i passadissos estrets s'utilitzen per generar sensació de claustrofòbia en els thrillers, mentre que els grans espais oberts poden simbolitzar llibertat o desemparament.
+
+\chapter{L'arquitectura i la trama}
+
+\section{Com els edificis ajuden a revelar la història}
+Els edificis sovint amaguen pistes sobre el desenvolupament de la història o sobre el passat dels personatges. Una casa en ruïnes pot simbolitzar la decadència d'una família, mentre que un gratacels hipermodern pot representar el poder i el control corporatiu inabastable.
+
+\section{L'arquitectura com a personatge actiu}
+De vegades, l'edifici no és només un lloc, sinó que és gairebé el protagonista o el detonant de l'acció. Pel·lícules on els personatges han d'escapar d'un recinte tancat, com a \textit{Cube} o \textit{El Resplandor}, són exemples perfectes de com l'arquitectura interactua directament amb el guió.
+
+\chapter{Tipologies arquitectòniques a la gran pantalla}
+
+\section{Els monuments arquitectònics reals al cinema}
+Molts directors trien utilitzar obres d'arquitectura famoses i reals per donar prestigi, context o versemblança a les seves pel·lícules. L'ús de ciutats històriques o d'edificis emblemàtics permet connectar la ficció amb el nostre món real i aporta una càrrega cultural prèvia a la narrativa.
+
+\section{L'arquitectura dels mons de ficció}
+D'altra banda, la ciència-ficció i la fantasia permeten als dissenyadors de producció alliberar-se de les lleis de la física i del pressupost. Explorarem com es construeixen ciutats del futur, planetes llunyans o mons màgics, i com aquestes estructures inventades reflecteixen els valors d'aquelles societats fictícies.
+
+\chapter{Conclusions}
+A tall de conclusió, podem afirmar que cinema i arquitectura formen un matrimoni indissoluble. Entendre els espais que veiem a la pantalla és entendre millor la història que ens estan explicant. L'arquitectura no només allotja la pel·lícula, sinó que l'explica, convertint-se en el llenç sobre el qual es pinta la narrativa audiovisual.
+
+\chapter*{Bibliografia}
+\addcontentsline{toc}{chapter}{Bibliografia}
+
+A continuació es detallen algunes de les fonts acadèmiques i obres de referència sobre la relació entre l'espai arquitectònic i el llenguatge cinematogràfic, seguint la normativa APA:
+
+\begin{itemize}
+    \item Pallasmaa, J. (2001). \textit{L'arquitectura de la imatge: l'espai existencial en el cinema}. Editorial Gustavo Gili.
+    
+    \item Neumann, D. (1999). \textit{Film Architecture: Set Designs from Metropolis to Blade Runner}. Prestel.
+    
+    \item Gorostiza, J. (1997). \textit{La arquitectura en el cine: Hollywood, la edad de oro}. Ediciones Cátedra.
+    
+    \item Ramírez, J. A. (1986). \textit{La arquitectura en el cine: Hollywood, la época clásica}. Alianza Editorial.
+\end{itemize}
+
+\end{document}

@@ -1,2 +1,2 @@
-# Ptojecte_joc
-Project vibe-coding
+#vibe-coding-gemini-cli-v1
+# vibe-coding-gemini-cli-v1
